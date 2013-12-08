@@ -26,7 +26,7 @@
 
 #import "RMStepsController.h"
 
-@interface RMStepsController () <RMStepsBarDelegate, RMStepsBarDataSource>
+@interface RMStepsController ()
 
 @property (nonatomic, strong, readwrite) NSMutableDictionary *results;
 @property (nonatomic, strong) UIViewController *currentStepViewController;
