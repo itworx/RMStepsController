@@ -40,7 +40,7 @@
  
  */
 
-@interface RMStepsController : UIViewController
+@interface RMStepsController : UIViewController <RMStepsBarDelegate, RMStepsBarDataSource>
 
 /// @name Properties
 
